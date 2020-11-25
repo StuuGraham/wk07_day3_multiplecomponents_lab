@@ -5,6 +5,8 @@
       <p>Species: {{character.species}}</p>
       <p>Originates From: {{character.origin.name}}</p>
       <p>Episode Features: {{character.episode.length}}</p>
+      <br>
+      <img class="character-img" :src="character.image"/>
   </div>
 </template>
 
@@ -16,5 +18,8 @@ export default {
 </script>
 
 <style>
-
+ .character-img {
+     height: 250px;
+     width: 200px;
+ }
 </style>

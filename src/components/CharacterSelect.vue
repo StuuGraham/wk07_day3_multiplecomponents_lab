@@ -1,3 +1,6 @@
+// file redundant after extensions
+
+
 <template>
   <li v-on:click="handleClick">{{character.name}}</li>
 </template>
